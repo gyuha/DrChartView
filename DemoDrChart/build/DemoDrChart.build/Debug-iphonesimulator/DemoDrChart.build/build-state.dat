@@ -1,400 +1,0 @@
-TDemoDrChart
-v7
-r0
-t304414620.361757
-cCheck dependencies
-cProcessInfoPlistFile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/Info.plist DemoDrChart-Info.plist
-cCompileXIB /Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib
-cCompileXIB /Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib
-cProcessPCH /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch.gch DemoDrChart_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/main.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChartAppDelegate.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChartViewController.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphContentView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphLeftMarginView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphYHeaderView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart normal i386
-cGenerateDSYMFile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app.dSYM /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart
-cTouch /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C4788290000000000000132
-t1279756329
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m
-c000000004C74801D00000000000003FA
-t1282703389
-s1018
-i"DrGraphContentView.h"
-i"DrGraphView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m
-c000000004C73AACD00000000000004F6
-t1282648781
-s1270
-i"DrGraphLeftMarginView.h"
-i"DrGraphView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.h
-c000000004C74A8EB000000000000176F
-t1282713835
-s5999
-i<UIKit/UIKit.h>
-i"DrMacros.h"
-i"DrGraphContentView.h"
-i"DrGraphYHeaderView.h"
-i"DrGraphLeftMarginView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m
-c000000004C74AAC30000000000003B0F
-t1282714307
-s15119
-i"DrGraphView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m
-c000000004C73B5DB00000000000008C6
-t1282651611
-s2246
-i"DrGraphYHeaderView.h"
-i"DrGraphView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.h
-c000000004C74C2ED0000000000000206
-t1282720493
-s518
-i<UIKit/UIKit.h>
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m
-c000000004C74C2ED0000000000000AAE
-t1282720493
-s2734
-i"DemoDrChartAppDelegate.h"
-i"DemoDrChartViewController.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.h
-c000000004C74C5C10000000000000186
-t1282721217
-s390
-i<UIKit/UIKit.h>
-i"DrGraphView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m
-c000000004C74C5F800000000000011E1
-t1282721272
-s4577
-i"DemoDrChartViewController.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib
-c000000004C74C2ED0000000000001A55
-t1282720493
-s6741
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChart_Prefix.pch
-c000000004C74C2ED00000000000000BF
-t1282720493
-s191
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib
-c000000004C74C2ED0000000000004E59
-t1282720493
-s20057
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app
-t1282721820
-s238
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app.dSYM
-t1282721820
-s102
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart
-t1282721820
-s62108
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChartViewController.nib
-t1282721252
-s795
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/Info.plist
-t1282721251
-s607
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/MainWindow.nib
-t1282721252
-s1131
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/PkgInfo
-t1282721251
-s8
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChart.LinkFileList
-c000000004C74C5E30000000000000413
-t1282721251
-s1043
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChartAppDelegate.o
-t1282721253
-s49172
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChartViewController.o
-t1282721820
-s48688
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphContentView.o
-t1282721253
-s38672
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphLeftMarginView.o
-t1282721253
-s38484
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphView.o
-t1282721253
-s89624
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphYHeaderView.o
-t1282721253
-s39240
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/main.o
-t1282721253
-s6316
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m
-c000000004C74C2ED000000000000017C
-t1282720493
-s380
-i<UIKit/UIKit.h>
-
-N/Users/nicegyuha/Desktop/DrChart/DrChartView/DrGraphContentView.h
-c000000004C732A310000000000000135
-t1282615857
-s309
-i<UIKit/UIKit.h>
-i"DrMacros.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DrChartView/DrGraphLeftMarginView.h
-c000000004C73A7C30000000000000125
-t1282648003
-s293
-i<UIKit/UIKit.h>
-
-N/Users/nicegyuha/Desktop/DrChart/DrChartView/DrGraphView.h
-c000000004C74A8EB000000000000176F
-t1282713835
-s5999
-i<UIKit/UIKit.h>
-i"DrMacros.h"
-i"DrGraphContentView.h"
-i"DrGraphYHeaderView.h"
-i"DrGraphLeftMarginView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DrChartView/DrGraphYHeaderView.h
-c000000004C734E630000000000000120
-t1282625123
-s288
-i<UIKit/UIKit.h>
-
-N/Users/nicegyuha/Desktop/DrChart/DrChartView/DrMacros.h
-c000000004C73A3360000000000000975
-t1282646838
-s2421
-
-N/var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch.gch
-t1282721253
-s15232016
-
-NDemoDrChart-Info.plist
-c000000004C74C2ED000000000000038D
-t1282720493
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies304414619#304414619#0(0"0(0#1#0"8662030208#0"0#
-
-CCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChartAppDelegate.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s304414053.462807
-e304414053.537395
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChartAppDelegate.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m304414053#304414053#0(0"0(0#0#77"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m8681232160#2091"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources/i386 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChartAppDelegate.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChartViewController.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s304414619.994063
-e304414620.189786
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChartViewController.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304414619#304414620#0(0"0(0#0#80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m8678571008#2097"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources/i386 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChartViewController.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphContentView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s304414053.464210
-e304414053.536402
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphContentView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m304414053#304414053#0(0"0(0#0#80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m8679001088#2090"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources/i386 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphContentView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphLeftMarginView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s304414053.520894
-e304414053.577881
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphLeftMarginView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m304414053#304414053#0(0"0(0#0#83"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m8676640960#2096"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources/i386 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphLeftMarginView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s304414053.536496
-e304414053.704196
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m304414053#304414053#0(0"0(0#0#73"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m8673983808#2076"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources/i386 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphYHeaderView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s304414053.537459
-e304414053.594190
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphYHeaderView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m304414053#304414053#0(0"0(0#0#80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m8673075040#2090"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources/i386 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DrGraphYHeaderView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/main.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s304414053.462027
-e304414053.520810
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/main.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m304414053#304414053#0(0"0(0#0#51"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m8681972512#2047"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources/i386 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib
-s304414051.485496
-e304414052.790839
-r1
-xCompileXIB
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib
-lSLF07#2@40"CompileXIB DemoDrChartViewController.xib304414051#304414052#0(0"0(0#0#74"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib8679598816#622"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChartViewController.nib /Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib
-s304414051.484954
-e304414052.810334
-r1
-xCompileXIB
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib304414051#304414052#0(0"0(0#0#59"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib8679408928#592"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/MainWindow.nib /Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CGenerateDSYMFile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app.dSYM /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart
-s304414620.271880
-e304414620.332072
-r1
-xGenerateDSYMFile
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app.dSYM
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart
-lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/DemoDrChart.app.dSYM build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart304414620#304414620#0(0"0(0#0#100"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart8703327936#413"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app.dSYM0#
-
-CLd /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart normal i386
-s304414620.189858
-e304414620.271805
-r1
-xLd
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart
-xnormal
-xi386
-lSLF07#2@105"Link /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart304414620#304414620#0(0"0(0#0#0"8663583072#950"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator -filelist /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/Objects-normal/i386/DemoDrChart.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/DemoDrChart0#
-
-CProcessInfoPlistFile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/Info.plist DemoDrChart-Info.plist
-s304414051.472578
-e304414051.484896
-r1
-xProcessInfoPlistFile
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/Info.plist
-xDemoDrChart-Info.plist
-lSLF07#2@30"Process DemoDrChart-Info.plist304414051#304414051#0(0"0(0#0#67"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChart-Info.plist8681039840#509"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DemoDrChart-Info.plist -genpkginfo /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app/Info.plist0#
-
-CProcessPCH /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch.gch DemoDrChart_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s304414052.810438
-e304414053.461919
-r1
-xProcessPCH
-x/var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch.gch
-xDemoDrChart_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile DemoDrChart_Prefix.pch304414052#304414053#0(0"0(0#0#67"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChart_Prefix.pch8704132576#1929"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources/i386 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphonesimulator/DemoDrChart.build/DerivedSources -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChart_Prefix.pch -o /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gixybhdoxprvngfvmxtjejkcctkv/DemoDrChart_Prefix.pch.gch0#
-
-CTouch /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app
-s304414620.332142
-e304414620.361724
-r1
-xTouch
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app
-lSLF07#2@94"Touch /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app304414620#304414620#0(0"0(0#0#0"8677351840#294"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphonesimulator/DemoDrChart.app0#
-

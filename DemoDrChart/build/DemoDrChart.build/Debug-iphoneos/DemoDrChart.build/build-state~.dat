@@ -1,649 +1,0 @@
-TDemoDrChart
-v7
-r0
-t304413971.769708
-cCheck dependencies
-cCpResource build/Debug-iphoneos/DemoDrChart.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/Info.plist DemoDrChart-Info.plist
-cCompileXIB /Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib
-cCompileXIB /Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib
-cProcessPCH /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch.gch DemoDrChart_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch.gch DemoDrChart_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/main.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChartAppDelegate.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChartViewController.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphContentView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphLeftMarginView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphYHeaderView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/main.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChartAppDelegate.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChartViewController.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphContentView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphLeftMarginView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphYHeaderView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cProcessProductPackaging "/Users/nicegyuha/Library/MobileDevice/Provisioning Profiles/34E46957-FA86-417A-AA58-04EAA75FCE5B.mobileprovision" /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/embedded.mobileprovision
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart.xcent
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
-c000000004C47881F0000000000000110
-t1279756319
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-c000000004C2A7DA700000000000001A7
-t1277853095
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-c000000004C2A7DA700000000000001E5
-t1277853095
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFE06FA000000000034A850
-t1274939130
-s3450960
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFE07D200000000003E1EB0
-t1274939346
-s4071088
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFE07B10000000000001466
-t1274939313
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C296E2A00000000000009CD
-t1277783594
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C296F120000000002D563E0
-t1277783826
-s47539168
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m
-c000000004C74801D00000000000003FA
-t1282703389
-s1018
-i"DrGraphContentView.h"
-i"DrGraphView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m
-c000000004C73AACD00000000000004F6
-t1282648781
-s1270
-i"DrGraphLeftMarginView.h"
-i"DrGraphView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m
-c000000004C74AAC30000000000003B0F
-t1282714307
-s15119
-i"DrGraphView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m
-c000000004C73B5DB00000000000008C6
-t1282651611
-s2246
-i"DrGraphYHeaderView.h"
-i"DrGraphView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.h
-c000000004C74C2ED0000000000000206
-t1282720493
-s518
-i<UIKit/UIKit.h>
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m
-c000000004C74C2ED0000000000000AAE
-t1282720493
-s2734
-i"DemoDrChartAppDelegate.h"
-i"DemoDrChartViewController.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.h
-c000000004C74C2ED0000000000000109
-t1282720493
-s265
-i<UIKit/UIKit.h>
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m
-c000000004C74C58D00000000000011CC
-t1282721165
-s4556
-i"DemoDrChartViewController.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib
-c000000004C74C2ED0000000000001A55
-t1282720493
-s6741
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChart_Prefix.pch
-c000000004C74C2ED00000000000000BF
-t1282720493
-s191
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib
-c000000004C74C2ED0000000000004E59
-t1282720493
-s20057
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app
-t2
-s0
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app.dSYM
-t2
-s0
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/DemoDrChart
-t2
-s0
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/DemoDrChartViewController.nib
-t1282721170
-s795
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/Info.plist
-t1282721168
-s742
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/MainWindow.nib
-t1282721170
-s1131
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/PkgInfo
-t1282721168
-s8
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/ResourceRules.plist
-t1282721168
-s485
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/embedded.mobileprovision
-t1282721171
-s7306
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart.xcent
-t1282721171
-s428
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChart
-t2
-s0
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChart.LinkFileList
-c000000004C74C58F00000000000003E9
-t1282721167
-s1001
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChartAppDelegate.o
-t1282721171
-s47316
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChartViewController.o
-t2
-s0
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphContentView.o
-t1282721171
-s38952
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphLeftMarginView.o
-t1282721171
-s38736
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphView.o
-t1282721171
-s83724
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphYHeaderView.o
-t1282721171
-s39368
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/main.o
-t1282721171
-s6452
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChart
-t2
-s0
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChart.LinkFileList
-c000000004C74C58F00000000000003E9
-t1282721167
-s1001
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChartAppDelegate.o
-t1282721171
-s47236
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChartViewController.o
-t2
-s0
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphContentView.o
-t1282721171
-s38644
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphLeftMarginView.o
-t1282721171
-s38568
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphView.o
-t1282721171
-s79576
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphYHeaderView.o
-t1282721171
-s39168
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/main.o
-t1282721171
-s6436
-
-N/Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m
-c000000004C74C2ED000000000000017C
-t1282720493
-s380
-i<UIKit/UIKit.h>
-
-N/Users/nicegyuha/Desktop/DrChart/DrChartView/DrGraphContentView.h
-c000000004C732A310000000000000135
-t1282615857
-s309
-i<UIKit/UIKit.h>
-i"DrMacros.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DrChartView/DrGraphLeftMarginView.h
-c000000004C73A7C30000000000000125
-t1282648003
-s293
-i<UIKit/UIKit.h>
-
-N/Users/nicegyuha/Desktop/DrChart/DrChartView/DrGraphView.h
-c000000004C74A8EB000000000000176F
-t1282713835
-s5999
-i<UIKit/UIKit.h>
-i"DrMacros.h"
-i"DrGraphContentView.h"
-i"DrGraphYHeaderView.h"
-i"DrGraphLeftMarginView.h"
-
-N/Users/nicegyuha/Desktop/DrChart/DrChartView/DrGraphYHeaderView.h
-c000000004C734E630000000000000120
-t1282625123
-s288
-i<UIKit/UIKit.h>
-
-N/Users/nicegyuha/Desktop/DrChart/DrChartView/DrMacros.h
-c000000004C73A3360000000000000975
-t1282646838
-s2421
-
-N/Users/nicegyuha/Library/MobileDevice/Provisioning Profiles/34E46957-FA86-417A-AA58-04EAA75FCE5B.mobileprovision
-c000000004C34404C0000000000001C8A
-t1278492748
-s7306
-
-N/var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch.gch
-t1282721171
-s10290736
-
-N/var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch.gch
-t1282721171
-s9831984
-
-NDemoDrChart-Info.plist
-c000000004C74C2ED000000000000038D
-t1282720493
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies304413967#304413968#0(247"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Lee Juheon (6S846DVAJN)', 'iPhone Developer: Gyuha Shin (B9S5KB783L)' -- 'iPhone Developer: Lee Juheon (6S846DVAJN)' will be used.1(22@239"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Lee Juheon (6S846DVAJN)', 'iPhone Developer: Gyuha Shin (B9S5KB783L)' -- 'iPhone Developer: Lee Juheon (6S846DVAJN)' will be used.304413967#18446744073709551615#0#0(1@0"0(0#1#0"8680915712#0"0#
-
-CCodeSign /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app
-r0
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChartAppDelegate.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s304413971.339266
-e304413971.437374
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChartAppDelegate.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m304413971#304413971#0(0"0(0#0#77"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m8704868576#1914"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv6 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChartAppDelegate.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChartViewController.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s304413971.339976
-e304413971.413071
-r0
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChartViewController.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: In function '-[DemoDrChartViewController loadView]':
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: 'DrGraphView' undeclared (first use in this function)
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: (Each undeclared identifier is reported only once
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: for each function it appears in.)
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:30: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:31: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: In function '-[DemoDrChartViewController viewDidLoad]':
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:50: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:63: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:65: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:66: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:67: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:68: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:70: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:71: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:73: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:74: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:76: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:77: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:79: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:80: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:81: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:83: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:87: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: At top level:
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:120: error: expected ')' before 'DrGraphView'
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:125: error: expected ')' before 'DrGraphView'
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:135: error: expected ')' before 'DrGraphView'
-lSLF07#2@88"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413971#304413971#0(4384"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: In function '-[DemoDrChartViewController loadView]':/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: 'DrGraphView' undeclared (first use in this function)/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: (Each undeclared identifier is reported only once/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: for each function it appears in.)/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:30: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:31: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: In function '-[DemoDrChartViewController viewDidLoad]':/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:50: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:63: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:65: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:66: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:67: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:68: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:70: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:71: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:73: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:74: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:76: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:77: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:79: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:80: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:81: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:83: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:87: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: At top level:/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:120: error: expected ')' before 'DrGraphView'/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:125: error: expected ')' before 'DrGraphView'/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:135: error: expected ')' before 'DrGraphView'25(4@68"Request for member 'graphView' in something not a structure or union304413971#135#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#29#0#29#0#0"0(4@53"'DrGraphView' undeclared (first use in this function)304413971#296#146#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#29#0#29#0#43"'*' undeclared (first use in this function)0(4@68"Request for member 'graphView' in something not a structure or union304413971#710#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#30#0#30#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#871#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#31#0#31#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1170#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#50#0#50#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1331#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#63#0#63#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1492#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#65#0#65#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1653#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#66#0#66#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1814#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#67#0#67#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1975#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#68#0#68#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2136#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#70#0#70#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2297#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#71#0#71#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2458#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#73#0#73#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2619#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#74#0#74#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2780#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#76#0#76#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2941#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#77#0#77#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#3102#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#79#0#79#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#3263#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#80#0#80#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#3424#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#81#0#81#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#3585#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#83#0#83#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#3746#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#87#0#87#0#0"0(23@13"At top level:304413971#3907#96#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#0#0#0#0#0"0(4@33"Expected ')' before 'DrGraphView'304413971#4003#127#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#120#0#120#0#19"expected * before *0(4@33"Expected ')' before 'DrGraphView'304413971#4130#127#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#125#0#125#0#19"expected * before *0(4@33"Expected ')' before 'DrGraphView'304413971#4257#127#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#135#0#135#0#19"expected * before *0(0#0#80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m8682619264#1920"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv6 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChartViewController.o1#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphContentView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s304413971.340765
-e304413971.419593
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphContentView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m304413971#304413971#0(0"0(0#0#80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m8680676864#1913"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv6 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphContentView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphLeftMarginView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s304413971.413147
-e304413971.521863
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphLeftMarginView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m304413971#304413971#0(0"0(0#0#83"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m8677013248#1919"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv6 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphLeftMarginView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s304413971.414721
-e304413971.630044
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m304413971#304413971#0(0"0(0#0#73"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m8679383168#1899"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv6 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphYHeaderView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s304413971.419684
-e304413971.526392
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphYHeaderView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m304413971#304413971#0(0"0(0#0#80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m8677936384#1913"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv6 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DrGraphYHeaderView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/main.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s304413971.338422
-e304413971.412882
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/main.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m304413971#304413971#0(0"0(0#0#51"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m8680849472#1870"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv6 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChartAppDelegate.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s304413971.489486
-e304413971.564014
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChartAppDelegate.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m304413971#304413971#0(0"0(0#0#77"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m8682772032#1914"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv7 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartAppDelegate.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChartAppDelegate.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChartViewController.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s304413971.521956
-e304413971.580461
-r0
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChartViewController.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: In function '-[DemoDrChartViewController loadView]':
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: 'DrGraphView' undeclared (first use in this function)
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: (Each undeclared identifier is reported only once
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: for each function it appears in.)
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:30: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:31: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: In function '-[DemoDrChartViewController viewDidLoad]':
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:50: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:63: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:65: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:66: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:67: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:68: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:70: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:71: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:73: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:74: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:76: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:77: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:79: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:80: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:81: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:83: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:87: error: request for member 'graphView' in something not a structure or union
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: At top level:
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:120: error: expected ')' before 'DrGraphView'
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:125: error: expected ')' before 'DrGraphView'
-o/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:135: error: expected ')' before 'DrGraphView'
-lSLF07#2@88"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413971#304413971#0(4384"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: In function '-[DemoDrChartViewController loadView]':/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: 'DrGraphView' undeclared (first use in this function)/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: (Each undeclared identifier is reported only once/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:29: error: for each function it appears in.)/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:30: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:31: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: In function '-[DemoDrChartViewController viewDidLoad]':/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:50: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:63: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:65: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:66: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:67: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:68: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:70: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:71: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:73: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:74: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:76: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:77: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:79: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:80: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:81: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:83: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:87: error: request for member 'graphView' in something not a structure or union/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m: At top level:/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:120: error: expected ')' before 'DrGraphView'/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:125: error: expected ')' before 'DrGraphView'/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m:135: error: expected ')' before 'DrGraphView'25(4@68"Request for member 'graphView' in something not a structure or union304413971#135#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#29#0#29#0#0"0(4@53"'DrGraphView' undeclared (first use in this function)304413971#296#146#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#29#0#29#0#43"'*' undeclared (first use in this function)0(4@68"Request for member 'graphView' in something not a structure or union304413971#710#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#30#0#30#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#871#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#31#0#31#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1170#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#50#0#50#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1331#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#63#0#63#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1492#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#65#0#65#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1653#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#66#0#66#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1814#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#67#0#67#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#1975#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#68#0#68#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2136#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#70#0#70#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2297#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#71#0#71#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2458#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#73#0#73#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2619#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#74#0#74#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2780#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#76#0#76#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#2941#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#77#0#77#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#3102#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#79#0#79#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#3263#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#80#0#80#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#3424#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#81#0#81#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#3585#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#83#0#83#0#0"0(4@68"Request for member 'graphView' in something not a structure or union304413971#3746#161#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#87#0#87#0#0"0(23@13"At top level:304413971#3907#96#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#0#0#0#0#0"0(4@33"Expected ')' before 'DrGraphView'304413971#4003#127#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#120#0#120#0#19"expected * before *0(4@33"Expected ')' before 'DrGraphView'304413971#4130#127#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#125#0#125#0#19"expected * before *0(4@33"Expected ')' before 'DrGraphView'304413971#4257#127#0(6@80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m304413965#135#0#135#0#19"expected * before *0(0#0#80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m8680386336#1920"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv7 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/Classes/DemoDrChartViewController.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChartViewController.o1#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphContentView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s304413971.526477
-e304413971.645852
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphContentView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m304413971#304413971#0(0"0(0#0#80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m8676500000#1913"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv7 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphContentView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphContentView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphLeftMarginView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s304413971.564102
-e304413971.641011
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphLeftMarginView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m304413971#304413971#0(0"0(0#0#83"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m8631222688#1919"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv7 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphLeftMarginView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphLeftMarginView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s304413971.580691
-e304413971.732574
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m304413971#304413971#0(0"0(0#0#73"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m8675058688#1899"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv7 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphYHeaderView.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s304413971.630224
-e304413971.694341
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphYHeaderView.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m304413971#304413971#0(0"0(0#0#80"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m8671523488#1913"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv7 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/../DrChartView/DrGraphYHeaderView.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DrGraphYHeaderView.o0#
-
-CCompileC build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/main.o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s304413971.437453
-e304413971.489393
-r1
-xCompileC
-xbuild/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/main.o
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m304413971#304413971#0(0"0(0#0#51"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m8676669568#1870"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv7 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -include /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/main.m -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib
-s304413968.079733
-e304413970.095846
-r1
-xCompileXIB
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib
-lSLF07#2@40"CompileXIB DemoDrChartViewController.xib304413968#304413970#0(0"0(0#0#74"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib8682140352#594"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/DemoDrChartViewController.nib /Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChartViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib
-s304413968.079166
-e304413970.095593
-r1
-xCompileXIB
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib304413968#304413970#0(0"0(0#0#59"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib8704857440#564"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/MainWindow.nib /Users/nicegyuha/Desktop/DrChart/DemoDrChart/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCpResource build/Debug-iphoneos/DemoDrChart.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-s304413968.002503
-e304413968.079110
-r1
-xCpResource
-xbuild/Debug-iphoneos/DemoDrChart.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist304413968#304413968#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8681534784#496"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app0#
-
-CCreateUniversalBinary /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/DemoDrChart normal "armv6 armv7"
-r0
-
-CGenerateDSYMFile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app.dSYM /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/DemoDrChart
-r0
-
-CLd /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv6/DemoDrChart normal armv6
-r0
-
-CLd /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/Objects-normal/armv7/DemoDrChart normal armv7
-r0
-
-CProcessInfoPlistFile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/Info.plist DemoDrChart-Info.plist
-s304413968.003248
-e304413968.061146
-r1
-xProcessInfoPlistFile
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/Info.plist
-xDemoDrChart-Info.plist
-lSLF07#2@30"Process DemoDrChart-Info.plist304413968#304413968#0(0"0(0#0#67"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChart-Info.plist8681232160#602"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DemoDrChart-Info.plist -genpkginfo /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/ResourceRules.plist -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/Info.plist0#
-
-CProcessPCH /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch.gch DemoDrChart_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s304413970.097534
-e304413971.338337
-r1
-xProcessPCH
-x/var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch.gch
-xDemoDrChart_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile DemoDrChart_Prefix.pch304413970#304413971#0(0"0(0#0#67"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChart_Prefix.pch8681942688#1758"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv7 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChart_Prefix.pch -o /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-eomvubplmziequcnbtykaihzykvg/DemoDrChart_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch.gch DemoDrChart_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s304413970.095935
-e304413971.263163
-r1
-xProcessPCH
-x/var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch.gch
-xDemoDrChart_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile DemoDrChart_Prefix.pch304413970#304413971#0(0"0(0#0#67"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChart_Prefix.pch8698248096#1758"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-generated-files.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-own-target-headers.hmap -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-all-target-headers.hmap -iquote /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart-project-headers.hmap -F/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/include -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources/armv6 -I/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DerivedSources -c /Users/nicegyuha/Desktop/DrChart/DemoDrChart/DemoDrChart_Prefix.pch -o /var/folders/xK/xKheX+YuGoueGim7MYot5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoDrChart_Prefix-gkftndouwdwpljegefbyqidjprem/DemoDrChart_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/nicegyuha/Library/MobileDevice/Provisioning Profiles/34E46957-FA86-417A-AA58-04EAA75FCE5B.mobileprovision" /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/embedded.mobileprovision
-s304413971.732659
-e304413971.755305
-r1
-xProcessProductPackaging
-x/Users/nicegyuha/Library/MobileDevice/Provisioning Profiles/34E46957-FA86-417A-AA58-04EAA75FCE5B.mobileprovision
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/embedded.mobileprovision
-lSLF07#2@200"ProcessProductPackaging "/Users/nicegyuha/Library/MobileDevice/Provisioning Profiles/34E46957-FA86-417A-AA58-04EAA75FCE5B.mobileprovision" build/Debug-iphoneos/DemoDrChart.app/embedded.mobileprovision304413971#304413971#0(0"0(0#0#106"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/embedded.mobileprovision8698801568#443"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/nicegyuha/Library/MobileDevice/Provisioning Profiles/34E46957-FA86-417A-AA58-04EAA75FCE5B.mobileprovision" -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart.xcent
-s304413971.755363
-e304413971.769666
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-x/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart.xcent
-lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart.xcent304413971#304413971#0(0"0(0#0#119"/Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart.xcent8682132704#456"    cd /Users/nicegyuha/Desktop/DrChart/DemoDrChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/DemoDrChart.build/Debug-iphoneos/DemoDrChart.build/DemoDrChart.xcent0#
-
-CTouch /Users/nicegyuha/Desktop/DrChart/DemoDrChart/build/Debug-iphoneos/DemoDrChart.app
-r0
-
