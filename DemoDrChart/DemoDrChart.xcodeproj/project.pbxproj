@@ -139,6 +139,8 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				6BA1A8111225111D00AF9F79 /* ShellScript */,
+				6BA1A8141225113C00AF9F79 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -177,6 +179,35 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BA1A8111225111D00AF9F79 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#! /bin/bash\n\nFILE=`%%%{PBXUtilityScriptsPath}%%%/AskUserForNewFileDialog \"Save As\" \".gitignore\"`\necho \"$FILE\"\ntouch \"$FILE\"\n\nFILEX=`%%%{PBXUtilityScriptsPath}%%%/AskUserForNewFileDialog \"Save As\" \".gitattributes\"`\necho \"$FILEX\"\ntouch \"$FILEX\"\n\n# This script creates the .gitignore and .gitattributes in the current folder.\n\necho \"# Mac OS X Finder and whatnot\n.DS_Store\n\n# XCode (and ancestors) per-user config (very noisy, and not relevant)\n*.mode1\n*.mode1v3\n*.mode2v3\n*.perspective\n*.perspectivev3\n*.pbxuser\n\n\n# Generated files\nVersionX-revision.h\n\n\n# build products\nbuild/\n*.[oa]\n\n# Other source repository archive directories (protects when importing)\n.hg\n.svn\nCVS\n\n\n# automatic backup files\n*~.nib\n*.swp\n*~\n*(Autosaved).rtfd/\nBackup[ ]of[ ]*.pages/\nBackup[ ]of[ ]*.key/\nBackup[ ]of[ ]*.numbers/\" >> \"$FILE\"\n\n\necho \"*.pbxproj -crlf -diff -merge\" >> \"$FILEX\"";
+		};
+		6BA1A8141225113C00AF9F79 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "#! /bin/bash\n\nFILE=`%%%{PBXUtilityScriptsPath}%%%/AskUserForNewFileDialog \"Save As\" \".gitignore\"`\necho \"$FILE\"\ntouch \"$FILE\"\n\nFILEX=`%%%{PBXUtilityScriptsPath}%%%/AskUserForNewFileDialog \"Save As\" \".gitattributes\"`\necho \"$FILEX\"\ntouch \"$FILEX\"\n\n# This script creates the .gitignore and .gitattributes in the current folder.\n\necho \"# Mac OS X Finder and whatnot\n.DS_Store\n\n# XCode (and ancestors) per-user config (very noisy, and not relevant)\n*.mode1\n*.mode1v3\n*.mode2v3\n*.perspective\n*.perspectivev3\n*.pbxuser\n\n\n# Generated files\nVersionX-revision.h\n\n\n# build products\nbuild/\n*.[oa]\n\n# Other source repository archive directories (protects when importing)\n.hg\n.svn\nCVS\n\n\n# automatic backup files\n*~.nib\n*.swp\n*~\n*(Autosaved).rtfd/\nBackup[ ]of[ ]*.pages/\nBackup[ ]of[ ]*.key/\nBackup[ ]of[ ]*.numbers/\" >> \"$FILE\"\n\n\necho \"*.pbxproj -crlf -diff -merge\" >> \"$FILEX\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
